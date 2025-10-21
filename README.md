@@ -13,6 +13,7 @@
 ## Install
 
 ```sh
+npm install -g typescript
 git clone --depth=1 https://github.com/AcleaZimon/URL_Shortener.git
 cd URL_Shortener
 npm install
