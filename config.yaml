@@ -1,0 +1,13 @@
+server_domain: "" # e.g. "example.com" instead of "X https://example.com X"!
+port: 3000
+page_dir: "" # DO NOT include the HTML file name in it!
+reverse_proxy_enabled: true # Like Nginx, CloudFlare, etc.
+
+enable_postgre: false
+sqlite_path: "" # If you enabled postgre, you don't need to set this.
+postgre_config: # If you enabled postgre, you must set these.
+  database: ""
+  host: ""
+  port: 
+  user: ""
+  max: 10 # Max number of database connections the pool can hold.

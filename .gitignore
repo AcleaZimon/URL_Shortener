@@ -1,0 +1,7 @@
+.DS_Store
+dist
+node_modules
+.vscode
+*_.*
+*.db
+index.html
