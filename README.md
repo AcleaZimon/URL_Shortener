@@ -10,6 +10,10 @@
 
 ### ✨ [Try it now](https://妈妈说域名太长别人记不住.top)
 
+## Important warning！
+The support for PostgreSQL has some issues.
+DO NOT use PostgreSQL！
+
 ## Install
 
 ```sh
