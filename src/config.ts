@@ -13,6 +13,7 @@ interface config {
         host: string
         port: number
         user: string
+        password: string
         pool_max: number
     }
 }
@@ -24,7 +25,7 @@ export class Config implements config {
     reverse_proxy_enabled: boolean;
     sqlite_path: string;
     enable_postgre: boolean;
-    postgre_config: { database: string; host: string; port: number; user: string; pool_max: number; };
+    postgre_config: { database: string; host: string; port: number; user: string; password: string; pool_max: number; };
     
     constructor() {
         const doc: config = yaml.load(

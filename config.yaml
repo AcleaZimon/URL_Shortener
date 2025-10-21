@@ -10,4 +10,5 @@ postgre_config: # If you enabled postgre, you must set these.
   host: ""
   port: 
   user: ""
+  password: ""
   max: 10 # Max number of database connections the pool can hold.
